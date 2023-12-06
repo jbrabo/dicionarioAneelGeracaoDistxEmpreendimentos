@@ -1,0 +1,63 @@
+,Nome do Campo,Tipo de dado,Tamanho do Campo,Descrição
+0,DatGeracaoConjuntoDados,data simples,-,Data e hora do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.
+1,AnmPeriodoReferencia,Cadeia de caracteres,7,Ano e mês de referência dos dados
+2,NumCNPJDistribuidora,Cadeia de caracteres,14,Cadastro Nacional de Pessoas Jurídicas.
+3,SigAgente,Cadeia de caracteres,20,Sigla que abrevia o nome do Agente de Geração Distribuída.
+4,NomAgente,Cadeia de caracteres,200,Nome do Agente de Geração Distribuída
+5,CodClasseConsumo,Numérico,-,Código que representa a classificação de consumo das unidades consumidoras
+6,DscClasseConsumo,Cadeia de caracteres,20,Descrição da classificação de consumo das unidades consumidoras
+7,CodSubGrupoTarifario,Numérico,-,Código que representa os subgrupos tarifários.
+8,DscSubGrupoTarifario,Cadeia de caracteres,10,"Grupamento de unidades consumidoras de acordo com os grupos tarifários:
+A1 - tensão de fornecimento igual ou superior a 230 kV
+A2 - tensão de fornecimento de 88 kV a 138 kV
+A3 - tensão de fornecimento de 69 kV
+A3a - tensão de fornecimento de 30 kV a 44 kV
+A4 - tensão de fornecimento de 2,3 kV a 25 kV
+AS - subterrâneo
+B1 - residencial
+B2 - rural
+B3 - demais classes
+B4 - iluminação pública"
+9,CodUFibge,Cadeia de caracteres,2,Código do IBGE referente ao Estado do Brasil em que se situa o Empreendimento de Geração Distribuída.
+10,SigUF,Cadeia de caracteres,2,Sigla do IBGE referente ao Estado do Brasil em que se situa o Empreendimento de  Geração Distribuída.
+11,CodRegiao,Cadeia de caracteres,4,Código Externo do IBGE referente a Meso Região em que se situa o Empreendimento de Geração Distribuída.
+12,DatGeracaoConjuntoDados,data simples,-,Data e hora do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.
+13,AnmPeriodoReferencia,Cadeia de caracteres,7,Ano e mês de referência dos dados
+14,NumCNPJDistribuidora,Cadeia de caracteres,14,Cadastro Nacional de Pessoas Jurídicas.
+15,SigAgente,Cadeia de caracteres,20,Sigla que abrevia o nome do Agente de Geração Distribuída.
+16,NomAgente,Cadeia de caracteres,200,Nome do Agente de Geração Distribuída
+17,CodClasseConsumo,Numérico,-,Código que representa a classificação de consumo das unidades consumidoras
+18,DscClasseConsumo,Cadeia de caracteres,20,Descrição da classificação de consumo das unidades consumidoras
+19,CodSubGrupoTarifario,Numérico,-,Código que representa os subgrupos tarifários.
+20,DscSubGrupoTarifario,Cadeia de caracteres,10,"Grupamento de unidades consumidoras de acordo com os grupos tarifários:
+A1 - tensão de fornecimento igual ou superior a 230 kV
+A2 - tensão de fornecimento de 88 kV a 138 kV
+A3 - tensão de fornecimento de 69 kV
+A3a - tensão de fornecimento de 30 kV a 44 kV
+A4 - tensão de fornecimento de 2,3 kV a 25 kV
+AS - subterrâneo
+B1 - residencial
+B2 - rural
+B3 - demais classes
+B4 - iluminação pública"
+21,CodUFibge,Cadeia de caracteres,2,Código do IBGE referente ao Estado do Brasil em que se situa o Empreendimento de Geração Distribuída.
+22,SigUF,Cadeia de caracteres,2,Sigla do IBGE referente ao Estado do Brasil em que se situa o Empreendimento de  Geração Distribuída.
+23,CodRegiao,Cadeia de caracteres,4,Código Externo do IBGE referente a Meso Região em que se situa o Empreendimento de Geração Distribuída.
+24,QtdUCRecebeCredito,Numérico,"16,2",Quantidade de UC (Unidades Consumidoras) menores que pertencem a essa UC (Unidade Consumidora)
+25,SigTipoGeracao,Cadeia de caracteres,10,"Abreviação do tipo de geração. Classificado em:
+UTN - Usina Termonuclear
+UTE - Usina Termelétrica
+UHE - Usina Hidrelétrica
+UFV - Central Geradora Solar Fotovoltaica
+PCH - Pequena Central Hidrelétrica
+EOL - Central Geradora Eólica
+CGU - Central Geradora Undi-elétrica
+CGH - Central Geradora Hidrelétrica"
+26,DscFonteGeracao,Cadeia de caracteres,50,"Descrição do combustível usado pelo empreendimento (Etanol, Casca de Arroz, etc.)"
+27,DscPorte,Cadeia de caracteres,12,Porte do Empreendimento de Geração Distribuída (Microgeração ou Minigeração)
+28,NumCoordNEmpreendimento,Numérico,"20,1",Latitude aproximada em grau decimal do ponto centroide de localização do empreendimento
+29,NumCoordEEmpreendimento,Numérico,"20,1",Longitude aproximada em grau decimal do ponto centroide de localização do empreendimento
+30,MdaPotenciaInstaladakW,Medida,"6,2","Armazena os dados expressos em quantidades e potência instalada em kW (quilowatt), definida pela somatória das potências elétricas ativas nominais dos módulos da central de geração distribuída"
+31,NomSubEstacao,Cadeia de caracteres,50,Nome da SubEstação vinculada ao empreendimento
+32,NumCoordESub,Numérico,"20,1",Latitude aproximada em grau decimal do ponto centroide de localização da SubEstação
+33,NumCoordNSub,Numérico,"20,1",Longitude aproximada em grau decimal do ponto centroide de localização da SubEstação
